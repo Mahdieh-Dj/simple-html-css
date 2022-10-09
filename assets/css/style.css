@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Vazir-FD";
+  src: url("../fonts/Vazir-FD.woff") format("woff");
+}
+* {
+  font-family: Vazir-FD;
+  font-size: 18px;
+}
+body {
+  direction: rtl;
+}
+.nav-item:hover {
+  font-weight: 800;
+  border-radius: 20px;
+}
+.image-prof {
+  border-radius: 50%;
+  width: 40px;
+  float: left;
+}
+/* footer {
+  bottom: 0;
+} */
+.menu-footer {
+  list-style: none;
+}
+.menu-footer li:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+.middle-footer {
+  background-color: lightgrey;
+  padding-top: 20px;
+  height: 270px;
+}
+.top-footer {
+  background-color: rgb(70, 70, 70);
+  color: white;
+}
+.top-footer i {
+  color: white;
+}
+.top-footer i:hover {
+  color: rgb(224, 224, 224);
+}
+.bottom-footer {
+  background-color: gray;
+  color: white;
+}
+.map-img {
+  width: 300px;
+  direction: ltr;
+  transition: transform 0.2s;
+}
+.map-img:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: scale(1.01);
+  cursor: pointer;
+}
